@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "type": "apiHubFileTrigger",
+      "name": "inputFile",
+      "direction": "in",
+      "path": "mfblob/{name}",
+      "connection": ""
+    },
+    {
+      "type": "apiHubFile",
+      "name": "$return",
+      "direction": "out",
+      "path": "mfblob/{name}",
+      "connection": ""
+    }
+  ]
+}
