@@ -5,8 +5,8 @@
       "name": "myBlob",
       "type": "blobTrigger",
       "direction": "in",
-      "path": "mfblob/{name}",
-      "connection": "mftestfuncappstorage_STORAGE"
+      "path": "inbound/{name}",
+      "connection": "fileprocessor_STORAGE"
     }
   ]
 }
