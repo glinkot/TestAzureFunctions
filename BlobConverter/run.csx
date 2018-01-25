@@ -8,4 +8,11 @@ public static void Run(Stream myBlob, string name, TraceWriter log)
     string text = reader.ReadToEnd();
 
     log.Info(text);
+
+    log.Info(convertText(text));
+}
+
+public static string convertText(string input)
+{
+    return input.ToUpper();
 }
